@@ -11,7 +11,10 @@ Also gibt es nun für mich dieses Greasmonkeyscript das in einer Großschadensla
 
 
 
-Folgendes Browserplugin ist nötig:
+Folgendes ist nötig:
 
-Tampermonkey: http://tampermonkey.net/
-Script installieren: https://github.com/accessburn/LSSFahrzeugzaehler/blob/master/LSSFzZ.user.js
+Tampermonkey:
+http://tampermonkey.net/
+
+Script installieren:
+https://github.com/accessburn/LSSFahrzeugzaehler/blob/master/LSSFzZ.user.js
