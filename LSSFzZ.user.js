@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Fahrzeugzähler
-// @version      0.2
+// @version      0.2.1
 // @description  Zählt die noch benötigten Fahrzeuge bei einer GSL o.ä.
 // @author       accessburn
 // @include      *://www.leitstellenspiel.de/missions/*
