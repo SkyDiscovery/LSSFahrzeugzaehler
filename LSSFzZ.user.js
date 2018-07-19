@@ -5,7 +5,7 @@
 // @author       accessburn
 // @include      *://www.leitstellenspiel.de/missions/*
 // @updateURL    https://github.com/accessburn/LSSFahrzeugzaehler/raw/master/LSSFzZ.user.js
-// @downloadURL  https://github.com/accessburn/LSSFahrzeugzaehler/blob/master/LSSFzZ.user.js
+// @downloadURL  https://github.com/accessburn/LSSFahrzeugzaehler/raw/master/LSSFzZ.user.js
 // @run          document-start
 // ==/UserScript==
 
