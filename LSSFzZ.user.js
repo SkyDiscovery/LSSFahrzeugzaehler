@@ -22,7 +22,6 @@ array_Fahrzeug.forEach(function(einArrayElement) {
     {
         // Keine Zahl
     } else {
-        alert(NurDieZahl[1]);
         AnzahlFahrzeuge = AnzahlFahrzeuge + parseInt(NurDieZahl[1]);
     }
 });
