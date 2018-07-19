@@ -18,6 +18,12 @@ var NurDieZahl = '0';
 var AnzahlFahrzeuge = 0;
 array_Fahrzeug.forEach(function(einArrayElement) {
     NurDieZahl = einArrayElement.split(' ');
-    AnzahlFahrzeuge = AnzahlFahrzeuge + parseInt(NurDieZahl[1]);
+    if (isNaN(parseInt(NurDieZahl[1])))
+    {
+        // Keine Zahl
+    } else {
+        alert(NurDieZahl[1]);
+        AnzahlFahrzeuge = AnzahlFahrzeuge + parseInt(NurDieZahl[1]);
+    }
 });
 document.getElementsByClassName('alert alert-danger')[0].innerHTML = node.textContent + "<br /><br />Es fehlen " + AnzahlFahrzeuge + " Fahrzeuge!";
