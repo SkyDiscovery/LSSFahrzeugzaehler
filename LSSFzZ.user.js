@@ -11,7 +11,7 @@
 
 var node = document.getElementsByClassName('alert alert-danger')[0]; // rotes Div auslesen
 var nurcontent = node.textContent; // Nur Text, kein HTML extrahieren
-if (nurcontent.indexOf("Wir") == "-1") // Auf das Stichwort "Wir" prüfen um RTW oder NEF nachorderung zu ignorieren
+if (nurcontent.indexOf("Wir") == "-1" || nurcontent.indexOf("Gefangene" == "-1") // Auf das Stichwort prüfen um RTW, Gefangene o.ä. zu ignorieren
 {
     nurcontent.replace('Zusätzlich benötigte Fahrzeuge: ', ''); // Anfangstext entfernen
     var array_Fahrzeug = nurcontent.slice(38).split(','); // Array anlegen
