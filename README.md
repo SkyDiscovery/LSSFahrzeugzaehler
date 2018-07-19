@@ -17,7 +17,7 @@ Tampermonkey:
 http://tampermonkey.net/
 
 Script installieren:
-https://github.com/accessburn/LSSFahrzeugzaehler/blob/master/LSSFzZ.user.js
+https://github.com/accessburn/LSSFahrzeugzaehler/raw/master/LSSFzZ.user.js
 
 
 Grüße aus Ffm,
