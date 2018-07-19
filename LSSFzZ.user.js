@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Fahrzeugzähler
-// @version      0.5
+// @version      0.5.1
 // @description  Zählt die noch benötigten Fahrzeuge bei einer GSL o.ä.
 // @author       accessburn
 // @include      *://www.leitstellenspiel.de/missions/*
@@ -24,4 +24,9 @@ array_Fahrzeug.forEach(function(einArrayElement) {
         AnzahlFahrzeuge = AnzahlFahrzeuge + parseInt(NurDieZahl[1]);
     }
 });
-document.getElementsByClassName('alert alert-danger')[0].innerHTML = node.textContent + "<hr />Es fehlen " + AnzahlFahrzeuge + " Fahrzeuge!";
+if (AnzahlFahrzeuge == 1) {
+    var Textausgabe = "Es fehlt nur noch " + AnzahlFahrzeuge + " Fahrzeug!";
+} else {
+    var Textausgabe = "Es fehlen noch " + AnzahlFahrzeuge + " Fahrzeuge!";
+}
+document.getElementsByClassName('alert alert-danger')[0].innerHTML = node.textContent + "<hr />" + Textausgabe;
