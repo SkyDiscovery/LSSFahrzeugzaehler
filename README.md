@@ -1,5 +1,5 @@
 # LSS Fahrzeugzähler (LSSFzZ)
-Zählt die noch benötigten Fahrzeuge bei einer GSL o.ä.
+Zählt die noch benötigten Fahrzeuge bei einer GSL beim Spiel http://leitstellenspiel.de
 
 
 Ich wollte bei GSLs immer wissen wieviele Fahrzeuge noch fehlen.
