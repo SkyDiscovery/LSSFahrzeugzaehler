@@ -1,4 +1,4 @@
-# LSSFahrzeugzaehler
+# LSS Fahrzeugzähler (LSSFzZ)
 Zählt die noch benötigten Fahrzeuge bei einer GSL o.ä.
 
 
@@ -18,3 +18,7 @@ http://tampermonkey.net/
 
 Script installieren:
 https://github.com/accessburn/LSSFahrzeugzaehler/blob/master/LSSFzZ.user.js
+
+
+Grüße aus Ffm,
+Tobias
