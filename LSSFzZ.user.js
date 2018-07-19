@@ -4,9 +4,8 @@
 // @description  Zählt die noch benötigten Fahrzeuge bei einer GSL o.ä.
 // @author       accessburn
 // @include      *://www.leitstellenspiel.de/missions/*
-// @updateURL    https://github.com/LennardTFD/lss-workers/raw/master/neededWorkers.user.js
-// @downloadURL  https://github.com/LennardTFD/lss-workers/raw/master/neededWorkers.user.js
-// @grant        none
+// @updateURL    https://github.com/accessburn/LSSFahrzeugzaehler/blob/master/LSSFzZ.user.js
+// @downloadURL  https://github.com/accessburn/LSSFahrzeugzaehler/blob/master/LSSFzZ.user.js
 // @run          document-start
 // ==/UserScript==
 
